@@ -1,10 +1,10 @@
 <?php
 session_start();
-define("ROOT_URL", "http://localhost/blog/");
-define('DB_HOST', 'localhost');
-define('DB_USER', 'underemployed');
-define('DB_PASS', 'admin1234');
-define('DB_NAME', 'blog');
+define("ROOT_URL", "http://cinebuzz.rf.gd/");
+define('DB_HOST', 'sql307.infinityfree.com');
+define('DB_USER', 'if0_36599985');
+define('DB_PASS', 'FGV5lJcZnBD');
+define('DB_NAME', 'if0_36599985_cinebuzz');
 if (!isset($_SESSION['user-id'])) {
     header("location: " . ROOT_URL . "logout.php");
     //destroy all sessions and redirect user to login page
